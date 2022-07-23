@@ -209,6 +209,13 @@ hr {
   border-radius: 50%;
 }
 
+
+
+
+/*
+REGRESSIONS STYLES
+---- */
+
 /*
 a super wide horizontal logo centered in the screen with minimal padding
 */
@@ -218,6 +225,14 @@ a super wide horizontal logo centered in the screen with minimal padding
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
+}
+
+.regressions-logo-new {
+  width: 100%;
+  /* max-width: 1000px; */
+  /* margin: 0 auto; */
+  /* padding: 0 20px; */
+  /* box-sizing: content-box; */
 }
 
 .created-by-line {
@@ -250,3 +265,18 @@ a super wide horizontal logo centered in the screen with minimal padding
   text-align: center;
   margin-top: 1rem;
 }
+
+
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  }
+  
+  .div1 { grid-area: 1 / 1 / 6 / 4; }
+  .div2 { grid-area: 1 / 4 / 6 / 6; }
+  .div3 { grid-area: 3 / 4 / 4 / 5; }
+  .div4 { grid-area: 3 / 4 / 5 / 6; }
