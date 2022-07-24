@@ -38,7 +38,7 @@ button {
   text-align: center;
   vertical-align: middle;
   font-size: 14px;
-  width: 200px;
+  width: 49%;
   font-weight: 700;
   line-height: 40px;
   letter-spacing: 0.1px;
@@ -46,6 +46,7 @@ button {
   border-radius: 0px;
   cursor: pointer;
   filter: opacity(0.7);
+  margin-bottom: 5px;
 }
 
 button:hover,
@@ -449,6 +450,26 @@ button:hover,
 }
 .button.button-spotify:hover,
 .button.button-spotify:focus {
+  filter: brightness(90%);
+}
+
+/* REGRESSIONS BRAND */
+.button.button-regressions {
+  width: 98%;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  /* a wireframe-style button with a white outline and white text with black background */
+  color: #ffffff;
+  background-color: #000000;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 2px;
+  /* a button that auto-resizes if on mobile*/
+  display: block;
+  
+}
+.button.button-regressions:hover,
+.button.button-regressions:focus {
   filter: brightness(90%);
 }
 
