@@ -249,6 +249,24 @@ a super wide horizontal logo centered in the screen with minimal padding
   filter: grayscale(0);
 }
 
+/*
+ special hyperlink style for creators' names
+*/
+.rsvp-line {
+  font-weight: bold;
+  text-decoration: none;
+  color: #e0b686;
+  filter: grayscale(0.1);
+}
+
+.rsvp-line:hover {
+  font-weight: bold;
+  text-decoration: none;
+  color:#e0b686;
+  filter: grayscale(0);
+}
+
+
 
 /*
  small text for copyright notice

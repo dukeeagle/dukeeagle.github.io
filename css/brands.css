@@ -634,6 +634,32 @@ button:hover,
   filter: brightness(90%);
 }
 
+.button.button-regressions-screening {
+  margin: 0 auto;
+  padding: 0 0px;
+  padding-top: 0px;
+
+  width: 98%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  margin-top: -10px;
+  font-size: 18px;
+  line-height: 1.5;
+  height: 150px;
+  color: #ffffffbf;
+  background-color: #000000;
+  border-style: solid;
+  border-color: #ffffff65;
+  border-width: 2px;
+  filter: opacity(1);
+  /* /* a button that auto-res */
+}
+.button.button-regressions-screening:hover,
+.button.button-regressions-screening:focus {
+  filter: brightness(90%);
+}
+
+
 /* Letterboxd */
 .button.button-letterboxd {
   color: #ffffff;
